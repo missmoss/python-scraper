@@ -4,3 +4,11 @@ yelp_oauth.json
 my_boston_restaurants.json
 
 .ipynb_checkpoints
+
+google_places_key.json
+
+google_place_crawler.ipynb
+
+google_place_crawler.ipynb
+
+yelp_crawler.ipynb
