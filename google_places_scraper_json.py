@@ -9,14 +9,15 @@ with io.open('google_places_key.json') as cred:
 
     result = []
     #Put your lantitude and longtitude pairs in the list and run the search in turns
-    lan_lng_list = [{'lan': 2.356357, 'lng': -71.0623345},  #Park Street Station
-                    {'lan': 42.356357, 'lng': -71.0623345},  #China Town Station
+    lat_lng_list = [{'lat': 2.356357, 'lng': -71.0623345},  #Park Street Station
+                    {'lat': 42.356357, 'lng': -71.0623345},  #China Town Station
                     {'lat': 42.3555885, 'lng': -71.0646816}] #Downtown Crossing Station
-    for pair in lan_lng_list:
+    for pair in lat_lng_list:
         query_result = google_places.nearby_search(
             lat_lng = pair, rankby = 'distance', types = [types.TYPE_FOOD])
 
-        for place in query_result.places:                                                   place.get_details()
+        for place in query_result.places:
+            place.get_details()
             tmp = vars(place)
             results.append(tmp)
                 
