@@ -2,7 +2,7 @@
 Python scrapers for yelp and Google Places.
 
 Here are 2 versions of codes provided:
- 1. For `Code + Explanation`, please see the iPython Notebook `ipynb` version.
+ 1. For `Code + Explanation`, please see the iPython Notebook `.ipynb` version.
  2. To modify and run the `Code` directly, please use python script `.py` version. In the directory you put the script, type `python yelp_scraper.py` to run the code.
 
 ## Refrence
