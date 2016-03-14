@@ -38,5 +38,5 @@ with io.open('google_places_key.json') as cred:
     '''
     
     t = json_normalize(results)
-    t.to_csv('google_places_boston.csv', encoding='utf-8')
+    t.to_csv('google_places_andorra.csv', encoding='utf-8')
 
